@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>D3 Scatterplot</title>
+  <meta charset="utf-8"/>
+  <link rel=stylesheet type="text/css" href="index.css"/>
+  <script src="node_modules/d3/build/d3.min.js"></script>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+<h4 id="hovered">chevrolet chevelle malibu</h4>
+<div class="plot">
+<svg>
+</svg>
+</div>
+<div class="ui">
+  <div>
+    <label>X-Axis</label>
+    <select id="sel-x">
+      <option></option>
+    </select>
+    <label>Y-Axis</label>
+    <select id="sel-y">
+      <option></option>
+    </select>
+</div>
+<div>
+  <input id="mpg-min" type="text" value="0" size="10">
+  <input id="mpg-max" type="text" value="30" size="10">
+  <button id="update">Query MPG</button>
+</div>
+</body>
+</html>

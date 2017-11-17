@@ -1,0 +1,16 @@
+{
+  "name": "bigdatalab6",
+  "version": "1.0.0",
+  "description": "Big Data Group Lab 6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^4.11.0",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.2.1"
+  }
+}
